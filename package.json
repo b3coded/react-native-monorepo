@@ -1,0 +1,29 @@
+{
+  "name": "example",
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "**/react",
+      "**/react**",
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-**",
+      "**/react-native-**/**",
+      "**/@react-native-async-storage",
+      "**/@react-native-async-storage/**",
+      "**/@react-native-community",
+      "**/@react-native-community/**",
+      "**/@react-native-firebase",
+      "**/@react-native-firebase/**",
+      "**/@react-navigation",
+      "**/@react-navigation/**",
+      "**/expo",
+      "**/expo/**",
+      "**/styled-components",
+      "**/styled-components/**"
+    ],
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
