@@ -6,7 +6,7 @@
  */
 
 
- const blacklist = require('metro-config/src/defaults/blacklist');
+ const blacklist = require('metro-config/src/defaults/exclusionList');
  const path = require('path');
 
 
